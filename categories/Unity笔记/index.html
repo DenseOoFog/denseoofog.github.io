@@ -3,16 +3,15 @@
 <head><meta name="generator" content="Hexo 3.9.0">
   <meta charset="utf-8">
   
-  <title>about | DenseFog&#39;s Blog</title>
+  <title>分类: Unity笔记 | DenseFog&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:title" content="DenseFog&#39;s Blog">
+<meta property="og:url" content="http://yoursite.com/categories/Unity笔记/index.html">
 <meta property="og:site_name" content="DenseFog&#39;s Blog">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-06-25T12:40:48.579Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
+<meta name="twitter:title" content="DenseFog&#39;s Blog">
   
     <link rel="alternate" href="/atom.xml" title="DenseFog&#39;s Blog" type="application/atom+xml">
   
@@ -53,7 +52,7 @@
         
           <a class="main-nav-link" href="/about">关于</a>
         
-          <a class="main-nav-link" href="/categories">分类</a>
+          <a class="main-nav-link" href="/category">分类</a>
         
       </nav>
       
@@ -67,99 +66,40 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/about/index.html" class="article-date">
-  <time datetime="2019-06-25T12:40:48.000Z" itemprop="datePublished">2019-06-25</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
+
   
-    <h1 class="article-title" itemprop="name">
-      about
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2019" class="archive-year">2019</a>
+        </div>
+         <span class="archive-year-post">5 post  this year</span>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2019/06/25/Unity使用笔记1-form嵌入cef与unity/" class="archive-article-date">
+  <time datetime="2019-06-25T11:50:23.000Z" itemprop="datePublished">06-25</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2019/06/25/Unity使用笔记1-form嵌入cef与unity/">Unity内嵌CEF</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/about/index.html" data-id="cjxbsur470001eonn72d32bd2" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
+    </header>
   </div>
-  
-    
- <script src="/jquery/jquery.min.js"></script>
-  <div id="random_posts">
-    <h2>推荐文章</h2>
-    <div class="random_posts_ul">
-      <script>
-          var random_count =4
-          var site = {BASE_URI:'/'};
-          function load_random_posts(obj) {
-              var arr=site.posts;
-              if (!obj) return;
-              // var count = $(obj).attr('data-count') || 6;
-              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
-              arr = arr.slice(0, random_count);
-              var html = '<ul>';
-            
-              for(var j=0;j<arr.length;j++){
-                var item=arr[j];
-                html += '<li><strong>' + 
-                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
-                (item.title || item.uri) + '</a></strong>';
-                if(item.excerpt){
-                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
-                }
-                html +='</li>';
-                
-              }
-              $(obj).html(html + '</ul>');
-          }
-          $('.random_posts_ul').each(function () {
-              var c = this;
-              if (!site.posts || !site.posts.length){
-                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
-              } 
-               else{
-                load_random_posts(c);
-              }
-          });
-      </script>
-    </div>
-  </div>
-
-    
-  
 </article>
- 
-     
-  <div class="comments" id="comments">
-    
-     
-       
-      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-    
-       
-      
-      
-  </div>
- 
+  
+  
+    </div></section>
   
 
 </section>
@@ -172,6 +112,13 @@
     
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title categories">分类</h3>
+    <div class="widget" id="categories">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Unity笔记/">Unity笔记</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/云服务器/">云服务器</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/笔记/">笔记</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
 
   
     
@@ -184,6 +131,10 @@
         
           <li>
             <a href="/2019/06/25/Hexo使用笔记/">Hexo使用笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2019/06/25/Unity使用笔记1-form嵌入cef与unity/">Unity内嵌CEF</a>
           </li>
         
           <li>
@@ -237,7 +188,7 @@
   
     <a href="/about" class="mobile-nav-link">关于</a>
   
-    <a href="/categories" class="mobile-nav-link">分类</a>
+    <a href="/category" class="mobile-nav-link">分类</a>
   
 </nav>
     <img class="back-to-top-btn" src="/images/fly-to-top.png"/>
